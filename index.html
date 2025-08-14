@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Weather</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+
+        <!-- search bar -->
+
+        <div class ="card">
+            <div class="search">
+                <input type="text" placeholder="search for a place" spellcheck="false">
+                <button><img src="images/search.png"></button>
+        </div>
+
+        <div class="error">
+            <p>Location unknown</p>
+        </div>
+
+        <!-- weather icon -->
+
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon">
+
+            <!-- temperature -->
+
+            <h1 class="temp"></h1>
+
+            <!-- location -->
+
+            <h2 class="location"></h2>
+
+            <!-- humidity -->
+
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <!-- wind -->
+
+                <div class="col">
+                    <img src="images/wind.png" alt="Wind">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
