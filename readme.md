@@ -43,4 +43,5 @@ const apiKey = "";
 
 I hope you like my simple weather app. My goal for this one was a clean user interface that was not too complicated in terms of functionality. 
 
-In the future I am considering interface updates, including adding a background that is responsive to weather conditions, but for now I am keeping it minimalist.
+
+In the future I am considering interface updates, including adding a background that is responsive to weather conditions and time of day, but for now I am keeping it minimalist.
