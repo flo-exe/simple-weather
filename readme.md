@@ -24,7 +24,7 @@ To use this application, you will need to obtain an API key from OpenWeatherMap.
 - After logging in, navigate to your profile and select the [API keys](https://home.openweathermap.org/api_keys) tab
 - Generate a new API key and ensure it is active. Please note it may take some time for this to be fully activated for usage
 - In the project files, open the script.js file in your favourite code editor
-- Locate the following code at the top of the file and paste your key between the parentheses
+- Locate the following code at the top of the file and paste your key between the quotes
 
 ```js
 // Your key here
@@ -45,3 +45,4 @@ I hope you like my simple weather app. My goal for this one was a clean user int
 
 
 In the future I am considering interface updates, including adding a background that is responsive to weather conditions and time of day, but for now I am keeping it minimalist.
+
